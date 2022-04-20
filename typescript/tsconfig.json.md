@@ -76,6 +76,12 @@
 > - `react` : js 파일로 컴파일 된다. (JSX 코드는 React.createElement() 함수의 호출로 변환됨)
 > - `preserve` : jsx 파일로 컴파일 된다. (JSX 코드가 그대로 유지됨)
 
+> **-- outDir**
+>
+> > 컴파일 후 생성되는 js파일이 생성될 폴더명
+>
+> - 프로젝트를 js 에서 ts로 마이그레이션 하게 되면 allowJS 옵션을 true로 해주어야 하는데 이때 ouDir를 반드시 지정해 주어야 tsconfig 파일이 에러가 나지 않는다.
+
 ## 2. include , exclude
 
 > - include : 컴파일할 파일 경로를 설정
